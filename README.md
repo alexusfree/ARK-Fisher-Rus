@@ -1,59 +1,48 @@
 # ARK Survival Evolved Fisher Rus
 
 
-# Оригинальный скрипт
-https://github.com/spencerjpotts/Ark-FisherMan
-
-[Official WEBSITE CLICK HERE](https://www.ark-fishing-script.org/)
+- Оригинальный скрипт, для английского интерфейса [Перейти](https://github.com/spencerjpotts/Ark-FisherMan)
+- И его сайт [ark-fishing-script.org](https://www.ark-fishing-script.org/)
 
 [![Wokring](https://img.youtube.com/vi/bXqh7yuM1sk/0.jpg)](https://www.youtube.com/watch?v=bXqh7yuM1sk&feature=youtu.be)
-# Проверенно на верси
+## Проверенно на верси
 - [x] (v300.1)
 
-# Совместимые разрешения
+## Совместимые разрешения
 - [x] 1920x1080
 
-# Загрузка и установка
+## Загрузка и установка
 - Загрузите и установите AutoHotKeys с https://autohotkey.com/
-- Загрузите и извлеките Ark-fisherman из https://github.com/alexusfree/ARK-Fisher-Rus
-- Распакуйте zip-файл в нужное место в вашей системе
-- Найдите Ark-FisherMan.ahk в недавно распакованном каталоге
-- Скомпелировать скрипт> Щелкните правой кнопкой мыши Ark-FisherMan.ahk> Скомпилировать скрипт
-- Это создает скомпилированную исполняемую версию ахк-скрипта, готовую к выполнению
+- Загрузите [Ark-Fisher_rus-1920x1080.ahk](https://raw.githubusercontent.com/alexusfree/ARK-Fisher-Rus/master/Ark-Fisher_rus-1920x1080.ahk)
+- Скомпилировать скрипт > Щелкните правой кнопкой мыши Ark-Fisher_rus-1920x1080.ahk > Compile Script
+- Это создает скомпилированную исполняемую версию ahk-скрипта, готовую к использованию.
 
-# Конфигурация игры
-- 1920x1080 
-- WindowedFullscreen
-- UI Scaling, 1.0 = MAXED
-- Конфигурация языка - Русский
+## Конфигурация игры
+- Разрешение экрана - 1920x1080 
+- Полноэкранный режим
+- Масштабирования экрана- максимум
+- Язык игры - Русский
 
 Чтобы скрипт работал правильно, проверьте и измените следующее:
 Открыть файл 
 ```cmd
- C:\steam\steamapps\common\ARK\ShooterGame\Saved\Config\WindowsNoEditor\GameUserSettings.ini
+ C:\Program Files (x86)\steam\steamapps\common\ARK\ShooterGame\Saved\Config\WindowsNoEditor\GameUserSettings.ini
 ```
-находим и заменяем:
+находим и приводим к виду:
 ```json
 FullscreenMode=1
 UIScaling=1.000000
 ```
-Игра требует перезагрузки, чтобы настройки вступили в силу!
-Обязательно запомните текущие настройки, чтобы не потерять их.
-
 Если ничего из вышеперечисленного не работает, попробуйте сбросить настройки игры по умолчанию.
 
-# Использование
-- Запуск скрипта: F5
+## Использование
+- Запустите скомпилированный файл AHK.
+- Войти в игру.
+- Садимся на скамейку, стул или Пелагорниса.
+- Забрасываем убочку, жмём F5 и ждём
 - Остановка скрипта: F6
 
-- Запустите скомпилированный файл AHK. Что объясняется в «установке»
-- Войти в игру.
-- Садись на скамейку или стул.
-- Литая штанга, жми F5 и жди
-- Стоп рыбалка сценарий с F5
 
-
-
-# ИСПОЛЬЗОВАНИЕ РЫБАЛКИ
+## ИСПОЛЬЗОВАНИЕ РЫБАЛКИ
 Посетите: http://ark.gamepedia.com/Fishing_Rod Для получения информации
 
