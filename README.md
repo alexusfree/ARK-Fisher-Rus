@@ -1,4 +1,4 @@
-# Ark-Fisherman
+# Ark-Fisherman rus locale
 
 # Official Website
 [Official WEBSITE CLICK HERE](https://www.ark-fishing-script.org/)
