@@ -15,7 +15,7 @@ https://github.com/spencerjpotts/Ark-FisherMan
 
 # Загрузка и установка
 - Загрузите и установите AutoHotKeys с https://autohotkey.com/
-- Загрузите и извлеките Ark-fisherman из https://github.com/alexusfree/Ark-FisherMan/
+- Загрузите и извлеките Ark-fisherman из https://github.com/alexusfree/ARK-Fisher-Rus
 - Распакуйте zip-файл в нужное место в вашей системе
 - Найдите Ark-FisherMan.ahk в недавно распакованном каталоге
 - Скомпелировать скрипт> Щелкните правой кнопкой мыши Ark-FisherMan.ahk> Скомпилировать скрипт
