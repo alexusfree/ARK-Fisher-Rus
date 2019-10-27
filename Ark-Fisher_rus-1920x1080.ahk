@@ -8,8 +8,8 @@
 #NoEnv
 #UseHook On
 ;WinActivate, ARK: Survival Evolved
-;F6::Reload ;; перезагружает скрипт
-;End::ExitApp ;;закрывает скрипт, 
+;F6::Reload ;; РїРµСЂРµР·Р°РіСЂСѓР¶Р°РµС‚ СЃРєСЂРёРїС‚
+;End::ExitApp ;;Р·Р°РєСЂС‹РІР°РµС‚ СЃРєСЂРёРїС‚, 
 
 F6::   ;F6 Break Script
 	i := 1
@@ -70,7 +70,7 @@ Start:
 		
 	PixelSearch PxX, Py, 1475, 880, 1475, 880, color, 4, Fast
 	if PxX	{	
-    	;	MsgBox, Найден X
+    	;	MsgBox, ГЌГ Г©Г¤ГҐГ­ X
 		Send, x
 		Sleep, speed
 		goto Start
