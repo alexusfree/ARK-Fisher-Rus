@@ -84,7 +84,7 @@ Start:
 		goto Start
 	}
 		
-	PixelSearch PxX, Py, 1475, 880, 1475, 880, color, 4, Fast
+	PixelSearch PxX, Py, 1475, 880, 1475, 880, color, 8, Fast
 	if PxX	{	
     	;	MsgBox, Íàéäåí X
 		Send, x
@@ -101,7 +101,7 @@ Start:
 
 
 	PixelSearch PxD, PyD, 1480, 910, 1480, 910, color, 3, Fast
-	if PxD && !PyQ	{	
+	if PxD && !PxQ	{	
     	;	MsgBox, D
 		Send, d
 		Sleep, speed
@@ -109,7 +109,7 @@ Start:
 	}
 
 	PixelSearch PxE, Py, 1458, 919, 1458, 919, color, 3, Fast 
-	if PxE && !PyA	{
+	if PxE && !PxA	{
 	;	MsgBox, E
 		Send, e
 		Sleep, speed
