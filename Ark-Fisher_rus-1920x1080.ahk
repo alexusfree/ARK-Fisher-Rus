@@ -1,9 +1,19 @@
 ; ----------------------------
 ; Author: Spencer j Potts & alexusfre
 ; Game: Ark: Survival Evolved
-; 
-;F5 = Run Script "F5"
-;F6 = Break Script
+; 1920x1080 русская
+;
+; Пилагорнис
+;Cheat GMSummon "Pela_Character_BP_C" 150
+
+;Удочка
+;GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponFishingRod.PrimalItem_WeaponFishingRod'" 5 1000 0
+
+;Мёд
+;GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Honey.PrimalItemConsumable_Honey'" 1000 100 0
+ 
+;Лосось 
+;SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Salmon/Salmon_Character_BP.Salmon_Character_BP'" 500 0 0 150
 ; ----------------------------
 #NoEnv
 #UseHook On
@@ -13,7 +23,10 @@
 
 F6::   ;F6 Break Script
 	i := 1
-	SoundBeep, 500, 150
+	SoundBeep, 494, 200 ;si
+	SoundBeep, 440, 200 ;la
+	SoundBeep, 392, 200 ;co
+	SoundBeep, 349, 200 ;fa
 	Reload
 return
 
@@ -21,7 +34,10 @@ F5::   ;F5 = Run Script "F5"
 	i := 0
 	color 	 = 0xFFFFFF
 	speed 	 = 150
-	SoundBeep, 300, 300
+	SoundBeep, 349, 200 ;fa
+	SoundBeep, 392, 200 ;co
+	SoundBeep, 440, 200 ;la
+	SoundBeep, 494, 200 ;si
 
 while ( %i% = 0 ) {
 Start:
