@@ -1,15 +1,12 @@
-# ARK Survival Evolved Fisher Rus
+# ARK Fisher Rus
+Скрипт помощник, в нелегком деле рыбной ловли в игре ARK Survival Evolved
 
-
-- Оригинальный скрипт, для английского интерфейса [Перейти](https://github.com/spencerjpotts/Ark-FisherMan)
-- И его сайт [ark-fishing-script.org](https://www.ark-fishing-script.org/)
-
-[![Wokring](https://img.youtube.com/vi/bXqh7yuM1sk/0.jpg)](https://www.youtube.com/watch?v=bXqh7yuM1sk&feature=youtu.be)
-## Проверенно на верси
+## Проверено на версии
 - [x] (v300.1)
 
 ## Совместимые разрешения
 - [x] 1920x1080
+- [x] 1680x1050
 
 ## Загрузка и установка
 - Загрузите и установите AutoHotKeys с https://autohotkey.com/
@@ -39,10 +36,16 @@ UIScaling=1.000000
 - Запустите скомпилированный файл AHK.
 - Войти в игру.
 - Садимся на скамейку, стул или Пелагорниса.
-- Забрасываем убочку, жмём F5 и ждём
+- Забрасываем удочку, жмём F5 и ждём
 - Остановка скрипта: F6
 
 
 ## ИСПОЛЬЗОВАНИЕ РЫБАЛКИ
 Посетите: http://ark.gamepedia.com/Fishing_Rod Для получения информации
+
+## Оригинал
+- Оригинальный скрипт, для английского интерфейса [Перейти](https://github.com/spencerjpotts/Ark-FisherMan)
+- Сайт автора [ark-fishing-script.org](https://www.ark-fishing-script.org/)
+
+[![Wokring](https://img.youtube.com/vi/bXqh7yuM1sk/0.jpg)](https://www.youtube.com/watch?v=bXqh7yuM1sk&feature=youtu.be)
 
