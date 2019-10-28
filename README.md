@@ -1,4 +1,4 @@
-# ARK Fisher Rus
+# ARK Fisher Russian localization
 Скрипт помощник, в нелегком деле рыбной ловли в игре ARK Survival Evolved
 
 ## Проверено на версии
